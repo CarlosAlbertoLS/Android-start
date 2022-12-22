@@ -30,6 +30,10 @@ android {
         jvmTarget = '1.8'
     }
     namespace 'com.sonder.androidmaster'
+
+    viewBinding{
+        enabled = true
+    }
 }
 
 dependencies {

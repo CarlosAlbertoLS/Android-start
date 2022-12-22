@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android Master</string>
+    <string name="btnSaludo">App Saludo</string>
+    <string name="btnImc">App IMC</string>
+    <string name="saludo">Bienvenido</string>
+    <string name="appSaludo">Introduce tu nombre</string>
+    <string name="btnName">Pulsame</string>
 </resources>
