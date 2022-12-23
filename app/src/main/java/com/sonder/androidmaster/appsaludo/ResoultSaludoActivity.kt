@@ -13,7 +13,8 @@ class ResoultSaludoActivity : AppCompatActivity() {
         binding = ActivityResoultSaludoBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val name = intent.extras?.getString("EXTRA_NAME")
+        val imc = intent.extras?.getInt("EXTRA_IMC")
 
-        binding.tvResult.text = "Hola $name"
+        binding.tvResult.text = "Hola $imc"
     }
 }

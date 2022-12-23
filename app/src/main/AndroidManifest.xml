@@ -13,15 +13,33 @@
         android:theme="@style/Theme.AndroidMaster"
         tools:targetApi="31">
         <activity
+            android:name=".appimc.ImcCalculateActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".appimc.ImcResultActivity"
+            android:exported="false"
+            android:parentActivityName=".appimc.ImcCalculateActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".appsaludo.ResoultSaludoActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".appsaludo.Saludo">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".appsaludo.Saludo"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

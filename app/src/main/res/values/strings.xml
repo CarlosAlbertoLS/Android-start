@@ -5,4 +5,8 @@
     <string name="saludo">Bienvenido</string>
     <string name="appSaludo">Introduce tu nombre</string>
     <string name="btnName">Pulsame</string>
+    <string name="imcCalculadora">Calculadora IMC</string>
+    <string name="altura">Introduce tu altura</string>
+    <string name="peso">Introduce tu peso</string>
+    <string name="calcular">Calcular</string>
 </resources>
