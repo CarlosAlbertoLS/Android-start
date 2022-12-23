@@ -2,6 +2,7 @@
 Aplicación que busca contener los conocimientos adquiridos en Android usando Kotlin y XML para su construcción,
 Se crearan mini proyectos que van a estar contenidos dentro de la lisma aplicación los cuales son:
  - App Saludo
+ - App IMC
  - ...(en progreso)
  
  # App Saludo
