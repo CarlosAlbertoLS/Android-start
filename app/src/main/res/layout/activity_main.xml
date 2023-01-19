@@ -31,5 +31,12 @@
         android:text="@string/btnImc"
         android:layout_marginTop="32dp" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSuperHero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSuperHero"
+        android:layout_marginTop="32dp" />
+
 
 </LinearLayout>

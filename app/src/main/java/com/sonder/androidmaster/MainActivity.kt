@@ -7,6 +7,7 @@ import android.os.Bundle
 import com.sonder.androidmaster.appimc.ImcCalculateActivity
 import com.sonder.androidmaster.appimc.ImcResultActivity
 import com.sonder.androidmaster.appsaludo.Saludo
+import com.sonder.androidmaster.appsuperhero.SuperHeroActivity
 import com.sonder.androidmaster.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,10 +19,25 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnSaludo.setOnClickListener { goActivity(Saludo()) }
         binding.btnImc.setOnClickListener { goActivity(ImcCalculateActivity()) }
+        binding.btnSuperHero.setOnClickListener { goActivity(SuperHeroActivity()) }
     }
 
     private fun goActivity(activity: Activity){
         val intent = Intent(this, activity::class.java)
         startActivity(intent)
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

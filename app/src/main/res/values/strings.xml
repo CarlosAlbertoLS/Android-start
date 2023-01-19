@@ -9,4 +9,5 @@
     <string name="altura">Introduce tu altura</string>
     <string name="peso">Introduce tu peso</string>
     <string name="calcular">Calcular</string>
+    <string name="btnSuperHero">App Super Hero</string>
 </resources>
