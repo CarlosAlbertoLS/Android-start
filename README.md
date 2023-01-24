@@ -22,6 +22,12 @@ Se hace el calculo del Indice de Masa Corporal
 |----------------------|-----------------|------------------|
 |![](https://acortar.link/bK8y3t) |![](https://acortar.link/xWZvrO)  |![](https://acortar.link/xgYCsM) |
 
+segunda versión
+
+| Menu de aplicaciones | Primer Activity | Activity Result  |
+|----------------------|-----------------|------------------|
+|![](https://acortar.link/bK8y3t) |![](https://acortar.link/6TTMmW)  |![](https://acortar.link/q68EUM) |
+
 # App Marvel/DC
 Se hace uso deun RecyclerView para mostrar un listado de super heroes y para motrar las imagenes se usa la libreria glide
 | Menu de aplicaciones | Primer Activity |
