@@ -30,4 +30,7 @@
 
     <string name="title_obesidad">Obesidad</string>
     <string name="description_obesidad">Estas muy por encima de lo óptimo para tu peso y altura.</string>
+    <string name="toDo">Tareas</string>
+    <string name="categories">Categorias</string>
+    <string name="taks">Tareas</string>
 </resources>

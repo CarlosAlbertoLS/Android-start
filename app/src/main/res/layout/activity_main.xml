@@ -17,26 +17,32 @@
         android:layout_gravity="center"
         android:layout_marginTop="16dp"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/btnSaludo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnSaludo"
         android:layout_marginTop="32dp"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/btnImc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnImc"
         android:layout_marginTop="32dp" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/btnSuperHero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnSuperHero"
         android:layout_marginTop="32dp" />
 
+    <Button
+        android:id="@+id/btnToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toDo"
+        android:layout_marginTop="32dp"/>
 
 </LinearLayout>

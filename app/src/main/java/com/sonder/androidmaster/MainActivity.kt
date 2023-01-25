@@ -9,6 +9,7 @@ import com.sonder.androidmaster.appimc.ImcResultActivity
 import com.sonder.androidmaster.appsaludo.Saludo
 import com.sonder.androidmaster.appsuperhero.SuperHeroActivity
 import com.sonder.androidmaster.databinding.ActivityMainBinding
+import com.sonder.androidmaster.todoapp.ToDoActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         binding.btnSaludo.setOnClickListener { goActivity(Saludo()) }
         binding.btnImc.setOnClickListener { goActivity(ImcCalculateActivity()) }
         binding.btnSuperHero.setOnClickListener { goActivity(SuperHeroActivity()) }
+        binding.btnToDo.setOnClickListener { goActivity(ToDoActivity()) }
     }
 
     private fun goActivity(activity: Activity){
