@@ -45,6 +45,8 @@ Aplicación que permitira a los usuarios crear tareas
 | Agregando tarea | Tarea agregada |Tarea terminada|Categoria eliminada|
 |----------------------|-----------------|---------|-------------------|
 |![](https://acortar.link/Z1m7ha) |![](https://acortar.link/CCDQI9)  |![](https://acortar.link/5yB73J)|![](https://acortar.link/t54y1Y)|
+
+
 Para esta segnda versión se actualizo la parte visual que ya se tenia en la primer versión además de agregarle las siguientes funciones:
 - Boton para agregar una tarea nueva
 - Al seleccionar una tarea se marca como terminada
