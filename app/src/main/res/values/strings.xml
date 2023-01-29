@@ -33,4 +33,9 @@
     <string name="toDo">Tareas</string>
     <string name="categories">Categorias</string>
     <string name="taks">Tareas</string>
+    <string name="task">Añade una tarea</string>
+    <string name="rbbusiness">Negocios</string>
+    <string name="rbPersonal">Personal</string>
+    <string name="rbOther">Otros</string>
+    <string name="createTask">Crear tarea</string>
 </resources>
