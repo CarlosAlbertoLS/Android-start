@@ -38,6 +38,14 @@ Se hace uso deun RecyclerView para mostrar un listado de super heroes y para mot
 # App To Do
 Aplicación que permitira a los usuarios crear tareas 
 
-| Menu de aplicaciones | Primer Activity |
-|----------------------|-----------------|
-|![](https://acortar.link/NEYAzw) |![](https://acortar.link/cf9iRd)  |
+| Menu de aplicaciones | Primer Activity | Primer Activity v2|
+|----------------------|-----------------|-------------------|
+|![](https://firebasestorage.googleapis.com/v0/b/repo-caeae.appspot.com/o/android-master%2FToDo%2FScreenshot_20230124-185311_Android%20Master.jpg?alt=media&token=e144c081-4512-4b17-85be-57f531b61d13) |![](https://acortar.link/cf9iRd)  |![](https://acortar.link/WxWvH2)
+
+| Agregando tarea | Tarea agregada |Tarea terminada|Categoria eliminada|
+|----------------------|-----------------|---------|-------------------|
+|![](https://acortar.link/Z1m7ha) |![](https://acortar.link/CCDQI9)  |![](https://acortar.link/5yB73J)|![](https://acortar.link/t54y1Y)|
+Para esta segnda versión se actualizo la parte visual que ya se tenia en la primer versión además de agregarle las siguientes funciones:
+- Boton para agregar una tarea nueva
+- Al seleccionar una tarea se marca como terminada
+- Al seleccionar una categoria se filtra y no se muestran las tareas correspondientes a esa categoria
