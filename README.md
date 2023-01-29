@@ -4,6 +4,7 @@ Se crearan mini proyectos que van a estar contenidos dentro de la lisma aplicaci
  - App Saludo
  - App IMC
  - App Marvel/DC
+ - App To Do
  - ...(en progreso)
  
  # App Saludo
@@ -34,4 +35,9 @@ Se hace uso deun RecyclerView para mostrar un listado de super heroes y para mot
 |----------------------|-----------------|
 |![](https://acortar.link/AySW37) |![](https://acortar.link/1l6cpx)  |
 
+# App To Do
+Aplicación que permitira a los usuarios crear tareas 
 
+| Menu de aplicaciones | Primer Activity |
+|----------------------|-----------------|
+|![](https://acortar.link/NEYAzw) |![](https://acortar.link/cf9iRd)  |
