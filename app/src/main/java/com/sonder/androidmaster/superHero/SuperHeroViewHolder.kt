@@ -6,7 +6,6 @@ import coil.load
 import com.sonder.androidmaster.databinding.ItemSuperHeroApiBinding
 
 import com.sonder.androidmaster.superHero.data.SuperHeroItemResponse
-import com.squareup.picasso.Picasso
 
 class SuperHeroViewHolder(view: View): RecyclerView.ViewHolder(view) {
     private val binding = ItemSuperHeroApiBinding.bind(view)

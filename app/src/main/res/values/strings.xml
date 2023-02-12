@@ -39,4 +39,5 @@
     <string name="rbOther">Otros</string>
     <string name="createTask">Crear tarea</string>
     <string name="shApi">App SuperHero API</string>
+    <string name="SUName">Introduce el nombre de un super heroe</string>
 </resources>
