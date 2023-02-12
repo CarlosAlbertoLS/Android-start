@@ -9,7 +9,7 @@
     <string name="height">Altura</string>
     <string name="peso">Introduce tu peso</string>
     <string name="calcular">Calcular</string>
-    <string name="btnSuperHero">App Super Hero</string>
+    <string name="btnSuperHero">App SuperHero</string>
     <string name="male">Hombre</string>
     <string name="female">Mujer</string>
     <string name="weight">Peso</string>
@@ -38,4 +38,5 @@
     <string name="rbPersonal">Personal</string>
     <string name="rbOther">Otros</string>
     <string name="createTask">Crear tarea</string>
+    <string name="shApi">App SuperHero API</string>
 </resources>

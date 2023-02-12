@@ -15,9 +15,16 @@
         android:theme="@style/Theme.AndroidMaster"
         tools:targetApi="31">
         <activity
-            android:name=".todoapp.ToDoActivity"
-            android:theme="@style/Theme.ToDoApp"
+            android:name=".superHero.SuperHeroListActivity"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".todoapp.ToDoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ToDoApp">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -45,4 +45,11 @@
         android:text="@string/toDo"
         android:layout_marginTop="32dp"/>
 
+    <Button
+        android:id="@+id/btnSuperHeroApi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/shApi"/>
+
 </LinearLayout>
