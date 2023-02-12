@@ -54,7 +54,7 @@ Para esta segnda versión se actualizo la parte visual que ya se tenia en la pri
 - Al seleccionar una categoria se filtra y no se muestran las tareas correspondientes a esa categoria
 
 # App SuperHero Api
-Se hace el consumo de una api llamada ![Superhero API](https://superheroapi.com/) donde la primer versión de la aplicacion se conecta
+Se hace el consumo de una api llamada [Superhero API](https://superheroapi.com/) donde la primer versión de la aplicacion se conecta
 y muestra la imagen y el nombre del superheroe que se busca
 
 | Menu de aplicaciones | Primer Activity |Buscando un superheroe | Resultado de la busqueda|
