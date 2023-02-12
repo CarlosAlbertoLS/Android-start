@@ -5,6 +5,7 @@ Se crearan mini proyectos que van a estar contenidos dentro de la lisma aplicaci
  - App IMC
  - App Marvel/DC
  - App To Do
+ - App SuperHero Api
  - ...(en progreso)
  
  # App Saludo
@@ -51,3 +52,11 @@ Para esta segnda versión se actualizo la parte visual que ya se tenia en la pri
 - Boton para agregar una tarea nueva
 - Al seleccionar una tarea se marca como terminada
 - Al seleccionar una categoria se filtra y no se muestran las tareas correspondientes a esa categoria
+
+# App SuperHero Api
+Se hace el consumo de una api llamada ![Superhero API](https://superheroapi.com/) donde la primer versión de la aplicacion se conecta
+y muestra la imagen y el nombre del superheroe que se busca
+
+| Menu de aplicaciones | Primer Activity |Buscando un superheroe | Resultado de la busqueda|
+|----------------------|-----------------|-----------------------|-------------------------|
+|![](https://acortar.link/SIlBh1) |![](https://acortar.link/ynRl1C)  |![](https://acortar.link/VEWCa2) |![](https://acortar.link/dciQ7f) |
