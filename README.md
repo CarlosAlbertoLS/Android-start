@@ -63,6 +63,6 @@ y muestra la imagen y el nombre del superheroe que se busca
 
 Para la segunda versión dela App superhero api se modifica la vista de la pantalla principal y se agrego una segunda patalla mostrando los detalles de los superheroes.
 
-|Buscando un superheroe| Resultado de busqueda | Detalle del superheroe |
-|-----------------------|----------------------|-----------------|
-|![](https://acortar.link/jJR7qr) |![](https://acortar.link/OqyA2g)| ![](https://acortar.link/6wuaD6)|
+|Buscando un superheroe| Resultado de busqueda | Detalle del superheroe |Detalle del superheroe actualizado |
+|-----------------------|----------------------|-----------------|-----------------------------------------|
+|![](https://acortar.link/jJR7qr) |![](https://acortar.link/OqyA2g)| ![](https://acortar.link/6wuaD6)|![](https://acortar.link/F2MlU9) |
