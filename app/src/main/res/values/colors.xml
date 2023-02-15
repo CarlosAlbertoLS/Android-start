@@ -28,4 +28,13 @@
     <color name="business_category">#FF9800</color>
     <color name="personal_category">#00BCD4</color>
     <color name="other_category">#4CAF50</color>
+
+    <!--Api SuperHero-->
+    <color name="superheri_item_name">#8C673AB7</color>
+    <color name="superhero_stat_intelligence">#00FF0A</color>
+    <color name="superhero_stat_strength">#FF1100</color>
+    <color name="superhero_stat_speed">#FF5722</color>
+    <color name="superhero_stat_durability">#03A9F4</color>
+    <color name="superhero_stat_power">#FF9800</color>
+    <color name="superhero_stat_combat">#673AB7</color>
 </resources>

@@ -1,5 +1,6 @@
 package com.sonder.androidmaster.superHero
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +8,9 @@ import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sonder.androidmaster.databinding.ActivitySuperHeroListBinding
+import com.sonder.androidmaster.superHero.data.SuperHeroResponse
+import com.sonder.androidmaster.superHero.detail.DetailSuperHeroActivity
+import com.sonder.androidmaster.superHero.detail.DetailSuperHeroActivity.Companion.EXTRA_ID
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -26,6 +30,12 @@ class SuperHeroListActivity : AppCompatActivity() {
         initUI()
     }
 
+    private fun navigateToDetail(id: String){
+        val intent = Intent(this, DetailSuperHeroActivity::class.java)
+        intent.putExtra(EXTRA_ID, id)
+        startActivity(intent)
+    }
+
     private fun initUI() {
         binding.svSuperHero.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
             android.widget.SearchView.OnQueryTextListener {
@@ -37,7 +47,9 @@ class SuperHeroListActivity : AppCompatActivity() {
             override fun onQueryTextChange(newText: String?): Boolean = false
 
         })
-        adapter = SuperHeroAdapter()
+        adapter = SuperHeroAdapter(){ id ->
+            navigateToDetail(id)
+        }
         binding.rvSHApi.setHasFixedSize(true)
         binding.rvSHApi.layoutManager = LinearLayoutManager(this)
         binding.rvSHApi.adapter = adapter
