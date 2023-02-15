@@ -59,4 +59,10 @@ y muestra la imagen y el nombre del superheroe que se busca
 
 | Menu de aplicaciones | Primer Activity |Buscando un superheroe | Resultado de la busqueda|
 |----------------------|-----------------|-----------------------|-------------------------|
-|![](https://acortar.link/SIlBh1) |![](https://acortar.link/ynRl1C)  |![](https://acortar.link/VEWCa2) |![](https://acortar.link/dciQ7f) |
+|![](https://acortar.link/SIlBh1) |![](https://firebasestorage.googleapis.com/v0/b/repo-caeae.appspot.com/o/shapi%2FScreenshot_20230211-184848_Android%20Master.jpg?alt=media&token=a40bede1-7943-40cc-ad80-f3da1d8e7ff0)  |![](https://firebasestorage.googleapis.com/v0/b/repo-caeae.appspot.com/o/shapi%2FScreenshot_20230211-184900_Android%20Master.jpg?alt=media&token=44dd3c99-d0f0-4922-85fa-c14d3873dcf2) |![](https://acortar.link/dciQ7f) |
+
+Para la segunda versión dela App superhero api se modifica la vista de la pantalla principal y se agrego una segunda patalla mostrando los detalles de los superheroes.
+
+|Buscando un superheroe| Resultado de busqueda | Detalle del superheroe |
+|-----------------------|----------------------|-----------------|
+|![](https://acortar.link/jJR7qr) |![](https://acortar.link/OqyA2g)| ![](https://acortar.link/6wuaD6)|
