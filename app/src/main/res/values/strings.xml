@@ -40,4 +40,5 @@
     <string name="createTask">Crear tarea</string>
     <string name="shApi">App SuperHero API</string>
     <string name="SUName">Introduce el nombre de un super heroe</string>
+    <string name="back">Regresar</string>
 </resources>

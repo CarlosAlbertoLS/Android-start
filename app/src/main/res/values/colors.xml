@@ -37,4 +37,5 @@
     <color name="superhero_stat_durability">#03A9F4</color>
     <color name="superhero_stat_power">#FF9800</color>
     <color name="superhero_stat_combat">#673AB7</color>
+    <color name="button_back">#009688</color>
 </resources>

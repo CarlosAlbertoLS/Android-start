@@ -28,6 +28,11 @@ class DetailSuperHeroActivity : AppCompatActivity() {
 
         val id: String = intent.getStringExtra(EXTRA_ID).orEmpty()
         getSuperheroInformation(id)
+        initListeners()
+    }
+
+    private fun initListeners() {
+        binding.btnBack.setOnClickListener { onBackPressed() }
     }
 
     private fun getSuperheroInformation(id: String) {
@@ -53,6 +58,10 @@ class DetailSuperHeroActivity : AppCompatActivity() {
         binding.numberPower.text = superhero.powerstats.power
         binding.numberSpeed.text = superhero.powerstats.speed
         binding.numberDurability.text = superhero.powerstats.durability
+        binding.tvHeight.text = "Altura: ${superhero.appearance.altura.last()}"
+        binding.tvWeight.text = "Peso: ${superhero.appearance.peso.last()}"
+        binding.tvOccupation.text = "Ocupación: ${superhero.work.occupation}"
+        binding.tvBase.text = "Base: ${superhero.work.base}"
     }
 
     private fun prepareStats(powerstats: PowerStatsResponse) {
